@@ -1,7 +1,0 @@
-/* Apply gradient to icons */
-.icon-gradient {
-    background: linear-gradient(to right, #2196F3, #EE9AE5); /* Blue to Pink gradient */
-    -webkit-background-clip: text; /* Clip the background to the text (icon) */
-    color: transparent; /* Make text transparent to show gradient */
-  }
-  

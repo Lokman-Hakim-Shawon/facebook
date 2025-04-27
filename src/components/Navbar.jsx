@@ -7,22 +7,28 @@ import { FaGamepad, FaShop } from 'react-icons/fa6';
 import { RiGroup2Line } from 'react-icons/ri';
 import { FaFacebookMessenger } from 'react-icons/fa';
 import { CgProfile } from 'react-icons/cg';
-// import {Navbar} from './Navbar.css'
-import './NabBar.css'
+
 const Navbar = () => {
     return (
-        <div className='fixed w-full flex justify-between items-center p-2 bg-white border-2 border-slate-300'>
-            <div className="hidden lg:block"><FaFacebook className=' text-blue-500 lg:text-5xl' /></div>
-            <div className="flex justify-between lg:justify-around w-4/6 lg:space-x-6 lg:w-3/6">
-                <Link to="/"><FaHome className='text-3xl lg:text-3xl text-blue-500'/></Link>
-                <Link to="videos"><MdOndemandVideo className='text-3xl lg:text-3xl text-blue-600'/></Link>
-                <Link to="shopping"><FaShop className='text-3xl lg:text-3xl text-blue-600' /></Link>
-                <Link to="groups"><RiGroup2Line className='text-3xl lg:text-3xl text-blue-600'/></Link>
-                <Link to="gaming"><FaGamepad className='text-3xl lg:text-3xl text-blue-600'/></Link>
+        <div className='fixed w-full flex flex-col lg:flex-row justify-between items-center p-2 bg-gradient-to-r from-violet-500 to-fuchsia-500'>
+                <h1 className="hidden lg:block text-primary font-bold text-2xl">Social <span className="text-green">Platform</span></h1>
+            <div className="lg:hidden flex justify-between items-center font-bold w-full border-b-2 pb-2 mb-2" >
+                <h1 className=" text-fuchsia-500">Social <span className="text-green">Platform</span></h1>
+                <div className=" flex justify-between items-center lg:px-8 space-x-4 lg:space-x-8">
+            <FaFacebookMessenger  className='text-3xl lg:text-3xl  rounded-full '  />
+            <CgProfile className='text-3xl lg:text-3xl rounded-full '/>
             </div>
-            <div className="flex justify-between items-center lg:px-8 space-x-4 lg:space-x-8">
-            <FaFacebookMessenger  className='text-3xl lg:text-3xl bg-orange-700 rounded-full text-blue-600'  />
-            <CgProfile className='text-3xl lg:text-3xl rounded-full text-blue-700'/>
+            </div>
+            <div className="flex justify-between lg:justify-around w-full lg:w-3/6 space-x-6">
+                <Link to="/"><FaHome className='text-3xl lg:text-3xl text-white'/></Link>
+                <Link to="videos"><MdOndemandVideo className='text-3xl lg:text-3xl text-white'/></Link>
+                <Link to="shopping"><FaShop className='text-3xl lg:text-3xl text-white' /></Link>
+                <Link to="groups"><RiGroup2Line className='text-3xl lg:text-3xl text-white'/></Link>
+                <Link to="gaming"><FaGamepad className='text-3xl lg:text-3xl text-white'/></Link>
+            </div>
+            <div className="hidden lg:block lg:flex lg:justify-between lg:items-center lg:px-8 space-x-4 lg:space-x-8">
+            <FaFacebookMessenger  className='text-3xl lg:text-3xl rounded-full '  />
+            <CgProfile className='text-3xl lg:text-3xl rounded-full '/>
             </div>
         </div>
     );
