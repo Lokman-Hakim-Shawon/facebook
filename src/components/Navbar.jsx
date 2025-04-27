@@ -21,10 +21,10 @@ const Navbar = () => {
             </div>
             <div className="flex justify-between lg:justify-around w-full lg:w-3/6 space-x-6">
                 <Link to="/"><FaHome className='text-3xl lg:text-3xl text-white'/></Link>
-                <Link to="videos"><MdOndemandVideo className='text-3xl lg:text-3xl text-white'/></Link>
-                <Link to="shopping"><FaShop className='text-3xl lg:text-3xl text-white' /></Link>
-                <Link to="groups"><RiGroup2Line className='text-3xl lg:text-3xl text-white'/></Link>
-                <Link to="gaming"><FaGamepad className='text-3xl lg:text-3xl text-white'/></Link>
+                <Link to="/videos"><MdOndemandVideo className='text-3xl lg:text-3xl text-white'/></Link>
+                <Link to="/marketplace"><FaShop className='text-3xl lg:text-3xl text-white' /></Link>
+                <Link to="/groups"><RiGroup2Line className='text-3xl lg:text-3xl text-white'/></Link>
+                <Link to="/games"><FaGamepad className='text-3xl lg:text-3xl text-white'/></Link>
             </div>
             <div className="hidden lg:block lg:flex lg:justify-between lg:items-center lg:px-8 space-x-4 lg:space-x-8">
             <FaFacebookMessenger  className='text-3xl lg:text-3xl rounded-full '  />

@@ -1,13 +1,18 @@
 
+import { Outlet } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <>
+    <div className='flex flex-col'>
     <Navbar/>
-    <h1 className=''>lokman hakim shawon</h1>
-    </>
+    <div className='pt-24 lg:pt-12'>
+    <Outlet/>
+    </div>
+    
+    </div>
   )
 }
 
