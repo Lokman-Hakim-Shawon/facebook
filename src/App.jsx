@@ -14,7 +14,7 @@ function App() {
         setClick(value)
     }
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col bg-slate-200'>
     <Navbar click={button}/>
     <div className='pt-24 lg:pt-12 h-full w-full lg:flex lg:justify-between'>
     <div className={`${click===true? 'hidden lg:block':''} fixed w-1/2 lg:w-2/6 top-11 lg:top-13 h-[calc(100vh)] bg-gradient-to-r from-primary to-secondary overflow-auto`}>
