@@ -1,10 +1,12 @@
 import React from 'react';
+import CardApi from '../customHooks/CardApi';
 
 const MarketPlace = () => {
+    const cardApi="/cardapi.json"
     return (
-        <div>
-            marketpage page
-        </div>
+        <>
+        <CardApi cardApi={cardApi} />
+        </>
     );
 };
 

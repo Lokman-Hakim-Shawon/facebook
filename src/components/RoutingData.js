@@ -23,9 +23,9 @@ const homeData =[
     {name:'Reels',path:'/reels',},
   ]
   const videoData=[
-    {name:'Home',path:'/'},
-    {name:'Live',path:'/videos/live'},
-    {name:'Reels',path:'/videos/reels'},
+    {name:'All videos',path:'/videos'},
+    {name:'Live',path:'/live'},
+    {name:'Reels',path:'/reels'},
     {name:'Shows',path:'/videos/shows'},
     {name:'Explore',path:'/videos/explore'},
     {name:'saved videos',path:'/videos/saveVideos'},
@@ -57,9 +57,9 @@ const homeData =[
     {name:'match',path:'/game/match'},
   ]
 const RoutingData = () => {
+     const location =useLocation()
+     const route=location.pathname
     const [data,setData]=useState([])
-    const location=useLocation()
-    const route=location.pathname
    useEffect(()=>{
     if(route==='/videos'){
         setData(videoData)
@@ -72,6 +72,12 @@ const RoutingData = () => {
     }
     else if(route==='/games'){
         setData(gameData)
+    }
+    else if(route==='/live'){
+      setData(videoData)
+    }
+    else if(route==='/reels'){
+      setData(videoData)
     }
     else {
         setData(homeData)

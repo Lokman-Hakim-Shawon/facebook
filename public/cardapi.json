@@ -1,0 +1,243 @@
+[
+    {
+      "title": "Samsung Galaxy S22 Ultra",
+      "price": 125000,
+      "address": "Bashundhara, Dhaka",
+      "img": "https://i.ibb.co.com/rpgXS3x/download-3.jpg"
+    },
+    {
+      "title": "iPhone 14 Pro Max",
+      "price": 180000,
+      "address": "Gulshan, Dhaka",
+      "img": "https://i.ibb.co.com/znBrQLr/images.jpg"
+    },
+    {
+      "title": "Xiaomi Redmi Note 12",
+      "price": 28000,
+      "address": "Mirpur, Dhaka",
+      "img": "https://i.ibb.co.com/w4RxMrK/download-2.jpg"
+    },
+    {
+      "title": "Oppo Reno8 T",
+      "price": 35000,
+      "address": "Mohammadpur, Dhaka",
+      "img": "https://i.ibb.co.com/JyQG6MZ/images.jpg"
+    },
+    {
+      "title": "Vivo V27 Pro",
+      "price": 39000,
+      "address": "Banani, Dhaka",
+      "img": "https://i.ibb.co.com/Np0bpNx/images-2.jpg"
+    },
+    {
+      "title": "Realme Narzo 60x",
+      "price": 25000,
+      "address": "Uttara, Dhaka",
+      "img": "https://i.ibb.co.com/vZXFp16/images.jpg"
+    },
+    {
+      "title": "Samsung Galaxy A54",
+      "price": 48000,
+      "address": "Khilgaon, Dhaka",
+      "img": "https://i.ibb.co.com/28zwZ6p/download-2.jpg"
+    },
+    {
+      "title": "iPhone 13 Mini",
+      "price": 115000,
+      "address": "Shantinagar, Dhaka",
+      "img": "https://i.ibb.co.com/PG7qCHs/download-1.jpg"
+    },
+    {
+      "title": "Xiaomi Poco X5 Pro",
+      "price": 32000,
+      "address": "Dhanmondi, Dhaka",
+      "img": "https://i.ibb.co.com/cxy2sxF/download-5.jpg"
+    },
+    {
+      "title": "Oppo A78 5G",
+      "price": 27000,
+      "address": "Tejgaon, Dhaka",
+      "img": "https://i.ibb.co.com/Q6BLPg4/images-1.jpg"
+    },
+    {
+      "title": "Vivo Y100 5G",
+      "price": 26000,
+      "address": "Kazipara, Dhaka",
+      "img": "https://i.ibb.co.com/KytxcpX/download-4.jpg"
+    },
+    {
+      "title": "Realme 11x 5G",
+      "price": 24000,
+      "address": "Banasree, Dhaka",
+      "img": "https://i.ibb.co.com/HTMkqVv/download-1.jpg"
+    },
+    {
+      "title": "Samsung Galaxy M14",
+      "price": 22000,
+      "address": "Rampura, Dhaka",
+      "img": "https://i.ibb.co.com/w4RxMrK/download-2.jpg"
+    },
+    {
+      "title": "iPhone SE (2022)",
+      "price": 90000,
+      "address": "Agargaon, Dhaka",
+      "img": "https://i.ibb.co.com/sVN2WP0/images-2.jpg"
+    },
+    {
+      "title": "Xiaomi Mi 11 Lite",
+      "price": 30000,
+      "address": "Moghbazar, Dhaka",
+      "img": "https://i.ibb.co.com/tDxrWFH/download-1.jpg"
+    },
+    {
+      "title": "Oppo F21 Pro",
+      "price": 34000,
+      "address": "Malibagh, Dhaka",
+      "img": "https://i.ibb.co.com/28zwZ6p/download-2.jpg"
+    },
+    {
+      "title": "Vivo X80 Lite",
+      "price": 42000,
+      "address": "Mohakhali, Dhaka",
+      "img": "https://i.ibb.co.com/C97p1sY/download-4.jpg"
+    },
+    {
+      "title": "Realme GT Master Edition",
+      "price": 36000,
+      "address": "Jatrabari, Dhaka",
+      "img": "https://i.ibb.co.com/XLh1Ktw/images.jpg"
+    },
+    {
+      "title": "Samsung Galaxy Z Flip 4",
+      "price": 155000,
+      "address": "Baridhara, Dhaka",
+      "img": "https://i.ibb.co.com/RPVdJyD/download-2.jpg"
+    },
+    {
+      "title": "iPhone 12 Pro",
+      "price": 135000,
+      "address": "Panthapath, Dhaka",
+      "img": "https://i.ibb.co.com/VSrKp8S/download-1.jpg"
+    },
+    {
+        "title": "Samsung Galaxy S22 Ultra",
+        "price": 125000,
+        "address": "Bashundhara, Dhaka",
+        "img": "https://i.ibb.co.com/rpgXS3x/download-3.jpg"
+      },
+      {
+        "title": "iPhone 14 Pro Max",
+        "price": 180000,
+        "address": "Gulshan, Dhaka",
+        "img": "https://i.ibb.co.com/znBrQLr/images.jpg"
+      },
+      {
+        "title": "Xiaomi Redmi Note 12",
+        "price": 28000,
+        "address": "Mirpur, Dhaka",
+        "img": "https://i.ibb.co.com/w4RxMrK/download-2.jpg"
+      },
+      {
+        "title": "Oppo Reno8 T",
+        "price": 35000,
+        "address": "Mohammadpur, Dhaka",
+        "img": "https://i.ibb.co.com/JyQG6MZ/images.jpg"
+      },
+      {
+        "title": "Vivo V27 Pro",
+        "price": 39000,
+        "address": "Banani, Dhaka",
+        "img": "https://i.ibb.co.com/Np0bpNx/images-2.jpg"
+      },
+      {
+        "title": "Realme Narzo 60x",
+        "price": 25000,
+        "address": "Uttara, Dhaka",
+        "img": "https://i.ibb.co.com/vZXFp16/images.jpg"
+      },
+      {
+        "title": "Samsung Galaxy A54",
+        "price": 48000,
+        "address": "Khilgaon, Dhaka",
+        "img": "https://i.ibb.co.com/28zwZ6p/download-2.jpg"
+      },
+      {
+        "title": "iPhone 13 Mini",
+        "price": 115000,
+        "address": "Shantinagar, Dhaka",
+        "img": "https://i.ibb.co.com/PG7qCHs/download-1.jpg"
+      },
+      {
+        "title": "Xiaomi Poco X5 Pro",
+        "price": 32000,
+        "address": "Dhanmondi, Dhaka",
+        "img": "https://i.ibb.co.com/cxy2sxF/download-5.jpg"
+      },
+      {
+        "title": "Oppo A78 5G",
+        "price": 27000,
+        "address": "Tejgaon, Dhaka",
+        "img": "https://i.ibb.co.com/Q6BLPg4/images-1.jpg"
+      },
+      {
+        "title": "Vivo Y100 5G",
+        "price": 26000,
+        "address": "Kazipara, Dhaka",
+        "img": "https://i.ibb.co.com/KytxcpX/download-4.jpg"
+      },
+      {
+        "title": "Realme 11x 5G",
+        "price": 24000,
+        "address": "Banasree, Dhaka",
+        "img": "https://i.ibb.co.com/HTMkqVv/download-1.jpg"
+      },
+      {
+        "title": "Samsung Galaxy M14",
+        "price": 22000,
+        "address": "Rampura, Dhaka",
+        "img": "https://i.ibb.co.com/w4RxMrK/download-2.jpg"
+      },
+      {
+        "title": "iPhone SE (2022)",
+        "price": 90000,
+        "address": "Agargaon, Dhaka",
+        "img": "https://i.ibb.co.com/sVN2WP0/images-2.jpg"
+      },
+      {
+        "title": "Xiaomi Mi 11 Lite",
+        "price": 30000,
+        "address": "Moghbazar, Dhaka",
+        "img": "https://i.ibb.co.com/tDxrWFH/download-1.jpg"
+      },
+      {
+        "title": "Oppo F21 Pro",
+        "price": 34000,
+        "address": "Malibagh, Dhaka",
+        "img": "https://i.ibb.co.com/28zwZ6p/download-2.jpg"
+      },
+      {
+        "title": "Vivo X80 Lite",
+        "price": 42000,
+        "address": "Mohakhali, Dhaka",
+        "img": "https://i.ibb.co.com/C97p1sY/download-4.jpg"
+      },
+      {
+        "title": "Realme GT Master Edition",
+        "price": 36000,
+        "address": "Jatrabari, Dhaka",
+        "img": "https://i.ibb.co.com/XLh1Ktw/images.jpg"
+      },
+      {
+        "title": "Samsung Galaxy Z Flip 4",
+        "price": 155000,
+        "address": "Baridhara, Dhaka",
+        "img": "https://i.ibb.co.com/RPVdJyD/download-2.jpg"
+      },
+      {
+        "title": "iPhone 12 Pro",
+        "price": 135000,
+        "address": "Panthapath, Dhaka",
+        "img": "https://i.ibb.co.com/VSrKp8S/download-1.jpg"
+      }
+  ]
+  

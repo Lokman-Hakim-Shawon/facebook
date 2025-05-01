@@ -1,10 +1,12 @@
 import React from 'react';
+import HomeApi from '../customHooks/HomeApi';
 
 const Videos = () => {
+    const videoApi='/videoapi.json'
     return (
-        <div>
-            videos pageall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is okall is ok
-        </div>
+        <>
+        <HomeApi apiData={videoApi} />
+        </>
     );
 };
 

@@ -12,6 +12,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App';
+import Live from './pages/videosPage/Live';
+import Reels from './pages/videosPage/Reels';
+import Friends from './pages/homePage/Friends';
+import Memorise from './pages/homePage/Memories';
+import Memories from './pages/homePage/Memories';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,7 +29,15 @@ const router = createBrowserRouter([
       },
       {
         path:'/videos',
-        element:<Videos/>
+        element:<Videos/>,
+      },
+      {
+        path:'/live',
+        element:<Live />
+      },
+      {
+        path:'/reels',
+        element:<Reels/>
       },
       {
         path:'/marketplace',
@@ -36,7 +50,14 @@ const router = createBrowserRouter([
       {
         path:'/games',
         element:<Games/>
-      }
+      },
+      {
+        path:'/friends',
+        element:<Friends/>
+      },
+      {
+        path:'/memories',
+        element:<Memories/>      }
     ]
   },
 ]);

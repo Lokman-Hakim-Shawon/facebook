@@ -1,8 +1,7 @@
 
-import { Outlet, useLocation } from 'react-router-dom'
+import { Outlet} from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
-import Home from './pages/Home'
 import SideBar from './customHooks/SideBar'
 import { useState } from "react";
 import RoutingData from './components/RoutingData'
@@ -20,7 +19,7 @@ function App() {
     <div className={`${click===true? 'hidden lg:block':''} fixed w-1/2 lg:w-2/6 top-11 lg:top-13 h-[calc(100vh)] bg-gradient-to-r from-primary to-secondary overflow-auto`}>
       <SideBar routingData={data} />
     </div>
-    <div className='lg:ml-[33%] lg:w-4/6 '>
+    <div className='lg:ml-[33%] lg:w-4/6 lg:pl-4 h-[100vh]'>
     <Outlet/>
     </div>
     </div>

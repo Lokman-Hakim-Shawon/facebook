@@ -1,10 +1,12 @@
 import React from 'react';
+import CardApi from '../customHooks/CardApi';
 
 const Games = () => {
+    const cardApi='/gameapi.json'
     return (
-        <div>
-           gaming page 
-        </div>
+        <>
+        <CardApi cardApi={cardApi} />
+        </>
     );
 };
 
