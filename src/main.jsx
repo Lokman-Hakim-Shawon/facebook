@@ -17,6 +17,7 @@ import Reels from './pages/videosPage/Reels';
 import Friends from './pages/homePage/Friends';
 import Memorise from './pages/homePage/Memories';
 import Memories from './pages/homePage/Memories';
+import Saved from './pages/homePage/Saved';
 
 const router = createBrowserRouter([
   {
@@ -57,7 +58,65 @@ const router = createBrowserRouter([
       },
       {
         path:'/memories',
-        element:<Memories/>      }
+        element:<Memories/>  
+      },
+      {
+        path:'/saved',
+        element:<Saved/>
+      },
+      {
+        path:'/feeds',
+        element:<Reels/>
+      },
+      {
+        path:'/adds',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>no ads active yet</h1>
+      },
+      {
+        path:'/birthdays',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>your Birthday is 15 December. </h1>
+      },
+      {
+        path:'/climate_science_center',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/fundraisers',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/gaming_video',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/messenger',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/messenger_kids',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/order_and_payment',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/pages',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/play_games',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/recent_ad_activity',
+        element:<h1 className='min-h-screen flex justify-center items-center lg:font-bold lg:text-3xl'>Data not available</h1>
+      },
+      {
+        path:'/reels',
+        element:<Reels/>
+      },
+      
     ]
   },
 ]);
