@@ -20,8 +20,7 @@ const Navbar = ({click}) => {
                 <h1 className=" text-fuchsia-500">Social <span className="text-green">Platform</span></h1>
                 <div className=" flex justify-between items-center lg:px-8 space-x-4 lg:space-x-8">
             <FaFacebookMessenger  className='text-3xl lg:text-3xl  rounded-full '  />
-            <CgProfile className='text-3xl lg:text-3xl rounded-full '/>
-            
+            <Link to='/registration'><CgProfile className='text-3xl lg:text-3xl rounded-full '/></Link>
             </div>
             </div>
             <div className="flex justify-between lg:justify-around w-full lg:w-3/6 space-x-6">
@@ -33,7 +32,7 @@ const Navbar = ({click}) => {
             </div>
             <div className="hidden lg:block lg:flex lg:justify-between lg:items-center lg:px-8 space-x-4 lg:space-x-8">
             <FaFacebookMessenger  className='text-3xl lg:text-3xl rounded-full '  />
-            <Link to='/registration'><CgProfile className='text-3xl lg:text-3xl rounded-full cursor-pointer'/></Link>
+            <Link to='/registration'><CgProfile className='text-3xl rounded-full lg:cursor-pointer'/></Link>
             </div>
         </div>
     );
