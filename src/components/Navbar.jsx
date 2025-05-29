@@ -33,7 +33,7 @@ const Navbar = ({click}) => {
             </div>
             <div className="hidden lg:block lg:flex lg:justify-between lg:items-center lg:px-8 space-x-4 lg:space-x-8">
             <FaFacebookMessenger  className='text-3xl lg:text-3xl rounded-full '  />
-            <CgProfile className='text-3xl lg:text-3xl rounded-full '/>
+            <Link to='/registration'><CgProfile className='text-3xl lg:text-3xl rounded-full cursor-pointer'/></Link>
             </div>
         </div>
     );

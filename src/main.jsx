@@ -18,6 +18,8 @@ import Friends from './pages/homePage/Friends';
 import Memorise from './pages/homePage/Memories';
 import Memories from './pages/homePage/Memories';
 import Saved from './pages/homePage/Saved';
+import Registration from './pages/authenticaton/Registration';
+import Login from './pages/authenticaton/Login';
 
 const router = createBrowserRouter([
   {
@@ -116,9 +118,16 @@ const router = createBrowserRouter([
         path:'/reels',
         element:<Reels/>
       },
-      
     ]
   },
+  {
+    path:'/registration',
+    element:<Registration/>
+  },
+  {
+    path:'/login',
+    element:<Login/>
+  }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
