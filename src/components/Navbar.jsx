@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FaFacebook } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { FaHome } from 'react-icons/fa';
@@ -8,7 +8,15 @@ import { RiGroup2Line } from 'react-icons/ri';
 import { FaFacebookMessenger } from 'react-icons/fa';
 import { CgProfile } from 'react-icons/cg';
 import { IoMenuOutline } from "react-icons/io5";
+import { AuthContext } from '../pages/authenticaton/AuthProvider';
+
+
 const Navbar = ({click}) => {
+    const {user,loading} =useContext(AuthContext)
+       if(loading){
+        return null
+       }
+       console.log('user data',user.photoURL)
     const handleToggle=()=>{
         click(value=>!value)
     }
@@ -20,7 +28,20 @@ const Navbar = ({click}) => {
                 <h1 className=" text-fuchsia-500">Social <span className="text-green">Platform</span></h1>
                 <div className=" flex justify-between items-center lg:px-8 space-x-4 lg:space-x-8">
             <FaFacebookMessenger  className='text-3xl lg:text-3xl  rounded-full '  />
-            <Link to='/registration'><CgProfile className='text-3xl lg:text-3xl rounded-full '/></Link>
+            {
+      user ? (
+        <img
+          src={user.photoURL}
+          alt="profile"
+          className='w-10 h-10 rounded-full object-cover'
+          title={user.displayName}
+        />
+      ) : (
+        <Link to='/registration'>
+          <CgProfile className='text-3xl rounded-full' />
+        </Link>
+      )
+    }
             </div>
             </div>
             <div className="flex justify-between lg:justify-around w-full lg:w-3/6 space-x-6">
@@ -32,7 +53,20 @@ const Navbar = ({click}) => {
             </div>
             <div className="hidden lg:block lg:flex lg:justify-between lg:items-center lg:px-8 space-x-4 lg:space-x-8">
             <FaFacebookMessenger  className='text-3xl lg:text-3xl rounded-full '  />
-            <Link to='/registration'><CgProfile className='text-3xl rounded-full lg:cursor-pointer'/></Link>
+            {
+      user ? (
+        <img
+          src={user.photoURL}
+          alt="profile"
+          className='w-10 h-10 rounded-full object-cover'
+          title={user.displayName}
+        />
+      ) : (
+        <Link to='/registration'>
+          <CgProfile className='text-3xl rounded-full' />
+        </Link>
+      )
+    }
             </div>
         </div>
     );

@@ -20,6 +20,7 @@ import Memories from './pages/homePage/Memories';
 import Saved from './pages/homePage/Saved';
 import Registration from './pages/authenticaton/Registration';
 import Login from './pages/authenticaton/Login';
+import AuthProvider from './pages/authenticaton/AuthProvider';
 
 const router = createBrowserRouter([
   {
@@ -131,7 +132,8 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-       <RouterProvider router={router} />
-
+      <AuthProvider>
+      <RouterProvider router={router} />
+      </AuthProvider>
   </React.StrictMode>,
 )

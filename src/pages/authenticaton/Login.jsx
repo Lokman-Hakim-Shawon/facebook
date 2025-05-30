@@ -1,10 +1,11 @@
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import app from './firebase.config';
 import { toast, ToastContainer } from 'react-toastify';
 
 const Login = () => {
+    const navigate = useNavigate()
     const auth=getAuth(app)
     const handleLogin=(e)=>{
         e.preventDefault()
@@ -16,12 +17,11 @@ const Login = () => {
             const user=res.user
             console.log('login successful',user)
             toast('Login Successful !')
+            navigate('/')
+           
         })
         .catch(err=>{
-            const errMessage=err.message
-            console.log(err)
-            console.log(errMessage)
-            toast('Error : ',errMessage)
+            toast('Error : email and password invalid')
         })
     }
     return (
